@@ -28,3 +28,27 @@ main {
 	width: 50%;
 	height: 40%;
 }
+
+.grey-box {
+	color: grey;
+	border: 1px solid black;
+	display: inline-block;
+	width: 33.33%;
+	height: 60%;
+}
+
+.black-box {
+	color: black;
+	border: 1px solid black;
+	display: inline-block;
+	width: 33.33%;
+	height: 60%;
+}
+
+.orange-box {
+	color: black;
+	border: 1px solid black;
+	display: inline-block;
+	width: 33.33%;
+	height: 60%;
+}
