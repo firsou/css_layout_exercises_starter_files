@@ -14,42 +14,37 @@ main {
 	height: 500px;
 }
 
-.green-box {
-	background-color: green;
+.container > * {
 	border: 1px solid black;
 	display: inline-block;
+}
+
+.green-box {
+	background-color: green;
 	width: 50%;
 	height: 40%;
 }
 
 .blue-box {
 	background-color: blue;
-	border: 1px solid black;
-	display: inline-block;
 	width: 50%;
 	height: 40%;
 }
 
 .grey-box {
 	background-color: grey;
-	border: 1px solid black;
-	display: inline-block;
 	width: 33.33%;
 	height: 60%;
 }
 
 .black-box {
 	background-color: black;
-	border: 1px solid black;
-	display: inline-block;
 	width: 33.33%;
 	height: 60%;
 }
 
 .orange-box {
 	background-color: orange;
-	border: 1px solid black;
-	display: inline-block;
 	width: 33.33%;
 	height: 60%;
 }
