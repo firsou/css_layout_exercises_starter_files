@@ -24,6 +24,7 @@ main {
 .blue-box {
 	color: blue;
 	border: 1px solid black;
+	display: inline-block;
 	width: 50%;
 	height: 40%;
 }
