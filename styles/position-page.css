@@ -10,30 +10,61 @@ nav {
 	padding-right: 60px;
 	padding-left: 60px;
 	position: fixed;
-	background: grey;
+	background-color: grey;
 	width: 100%;
 	height: 60px;
 }
 
 .logo {
-	width: 60px;
-	height: 60px;
-	position: absolute;
-	left: 10px;
-	border: 3px solid black;
-	border-radius: 60px;
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
 }
 
-ul > li {
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav li {
 	left: 10px;
 	display: inline-block;
+}
+
+nav li:after {
+	content: '|';
+	margin-left: 5px;
+}
+
+main {
+  padding-top: 90px;
+  min-width: 1000px;
 }
 
 .green-box {
 	width: 600px;
 	height: 300px;
-	border-size: 10px green dotted;
+	border: 10px dotted green;
+	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 100px;
+	margin-top: 150px;
+}
+
+.spacecat, .spacedog {
+  position: absolute;
+  width: 200px;
+}
+
+.spacecat {
+  top: -90px;
+  left: -90px;
+}
+
+.spacedog {
+  bottom: -120px;
+  right: -60px;
 }
