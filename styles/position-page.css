@@ -4,3 +4,8 @@ nav {
 	position: fixed;
 	background: grey;
 }
+
+.logo {
+	position: absolute;
+	left: 10px;
+}
